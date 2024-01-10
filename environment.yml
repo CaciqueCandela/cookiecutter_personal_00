@@ -1,0 +1,17 @@
+# conda env create --file environment.yml
+name: cookiecutter_testing_01
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - pip
+  - pyprojroot
+  - python=3.11.3
+  - pip:
+    - pyhere
+    
